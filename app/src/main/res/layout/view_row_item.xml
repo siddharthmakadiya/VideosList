@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/iconback"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:layout_toEndOf="@+id/card"
+
+            android:layout_toRightOf="@+id/card"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Title"
+                android:textColor="#ffffff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="#999"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="7dp"
+            card_view:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/city_thumb" />
+
+        </android.support.v7.widget.CardView>
+
+        <!-- <ToggleButton
+             android:id="@+id/toggleButton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/card"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:text=""
+             android:textOff=""
+             android:textOn=""
+             android:visibility="gone" />
+     -->
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/card"
+            android:background="@color/primaryColorDarkYoutube" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="37dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/swipe"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_right"
+                android:layout_marginTop="@dimen/activity_vertical_margin_left"
+                android:layout_weight="1"
+                android:src="@drawable/ic_description_black_48dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_share"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_right"
+                android:layout_marginTop="@dimen/activity_vertical_margin_left"
+                android:layout_weight="1"
+                android:src="@drawable/ic_share_white_48dp" />
+
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin_right"
+                android:layout_marginTop="@dimen/activity_vertical_margin_left"
+                android:layout_weight="1"
+                android:src="@drawable/ic_delete_white_48dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

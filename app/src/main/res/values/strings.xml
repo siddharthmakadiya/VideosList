@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Videos</string>
+    <string name="screenRotation">rotation</string>
+    <string name="shareDialogTitle">Share with:</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9484488595345309/4009506876</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9484488595345309/6125368473</string>
+
+    <string name="open_in_browser">Open in browser</string>
+    <string name="share">Share</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="sendWith">Send with</string>
+    <string name="didYouMean">Did you mean: </string>
+    <string name="searchPage">Search page: </string>
+    <string name="action_settings">Set Background</string>
+    <string name="str_share_this_video">VideoSharing</string>
+
+
+</resources>

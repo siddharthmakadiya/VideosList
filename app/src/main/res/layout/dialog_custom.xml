@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/txt_alert_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="Are You Sure??"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_ok_alert"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_alert_text"
+        android:layout_margin="4dp"
+        android:background="@null"
+        android:text="OK"
+        android:textColor="#dd0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Cancle_alert"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_ok_alert"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:text="Cancle"
+        android:textColor="@color/black_overlay"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--  <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/txt_alert_text"
+          android:layout_centerHorizontal="true"
+          android:orientation="horizontal" >
+
+          <Button
+              android:id="@+id/button_cancel_alert"
+              style="@style/yellow_button_style.login_button_style"
+              android:layout_width="100dp"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_margin="4dp"
+              android:text="No" />
+
+          <Button
+              android:id="@+id/button_ok_alert"
+              style="@style/yellow_button_style.login_button_style"
+              android:layout_width="100dp"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_margin="4dp"
+              android:background="@drawable/button_green_selector"
+              android:text="Yes" />
+      </LinearLayout>-->
+
+</RelativeLayout>

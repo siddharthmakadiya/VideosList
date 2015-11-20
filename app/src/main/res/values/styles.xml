@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+        <item name="colorPrimary">@color/primaryColorYoutube</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkYoutube</item>
+        <item name="colorAccent">@color/accentColorYoutube</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/NewPipeActionbarTheme</item>
+        <item name="actionBarStyle">@style/NewPipeActionbarTheme</item>
+        <item name="colorPrimary">@color/primaryColorYoutube</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkYoutube</item>
+        <item name="colorAccent">@color/accentColorYoutube</item>
+    </style>
+
+    <style name="NewPipeActionbarTheme" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:displayOptions">showHome</item>
+        <item name="displayOptions">showHome</item>
+        <item name="android:background">@color/primaryColorYoutube</item>
+        <item name="background">@color/primaryColorYoutube</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/NewPipePlayerActionBarTheme</item>
+        <item name="actionBarStyle">@style/NewPipePlayerActionBarTheme</item>
+        <item name="colorAccent">#dd0000</item>
+    </style>
+
+
+    <style name="NewPipePlayerActionBarTheme" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">showHome</item>
+        <item name="displayOptions">showHome</item>
+        <item name="android:background">@color/black_overlay</item>
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+</resources>

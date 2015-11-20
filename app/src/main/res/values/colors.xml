@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="RedOriednted">#30000000</color>
+    <color name="Accentcolor_50">#50312c32</color>
+    <color name="primaryColorYoutube">#9E9E9E</color>
+    <color name="primaryColorDarkYoutube">#c9c9c9</color>
+    <color name="accentColorYoutube">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="iconback">#40000000</color>
+
+</resources>
